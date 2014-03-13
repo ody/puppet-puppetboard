@@ -1,0 +1,11 @@
+PUPPETDB_HOST = '<%= @puppetdb_host %>'
+PUPPETDB_PORT = <%= @puppetdb_port %>
+PUPPETDB_SSL_VERIFY = <%= @puppetdb_ssl_verify ? 'True' : 'False' %>
+PUPPETDB_KEY = <%= @puppetdb_key ? "'#{@puppetdb_key}'" : 'None' %>
+PUPPETDB_CERT = <%= @puppetdb_cert ? "'#{@puppetdb_cert}'" : 'None' %>
+PUPPETDB_TIMEOUT = <%= @puppetdb_timeout %>
+DEV_LISTEN_HOST = '<%= @dev_listen_host %>'
+DEV_LISTEN_PORT = <%= @dev_listen_port %>
+UNRESPONSIVE_HOURS = <%= @unresponsive_hours %>
+ENABLE_QUERY = <%= @enable_query ? 'True' : 'False' %>
+LOGLEVEL = '<%= @loglevel %>'
